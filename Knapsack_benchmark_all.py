@@ -49,3 +49,5 @@ items = [i+1 for i in range(len(weights))] #[1, 2, 3, 4, 5, 6, 7]
 
 if __name__ == "__main__":
     benchmark(weight_cap)
+
+    #TEST

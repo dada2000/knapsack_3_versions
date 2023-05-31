@@ -1,5 +1,5 @@
 # KNAPSACK SOLUTION:
-## BENCHMARKING RUNTIME PERFORMANCE FOR 3 DIFFERENT IMPLEMENTATIONS
+## BENCHMARKING 3 DIFFERENT IMPLEMENTATIONS
 ### GENERAL:
 * Bruteforce, recursive and dynamic solutions for Knapsack problem in Python in 3 separate files.
 * The main benchmark file is calling all 3 python files --> Each implementation prints their own result summary followed by the general benchmark statistics output.

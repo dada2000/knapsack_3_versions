@@ -1,21 +1,21 @@
 import time, datetime
-import Knapsack_Bruteforce, Knapsack_Dynamic, Knapsack_Recursive
+import python_files.Knapsack_Bruteforce, python_files.Knapsack_Dynamic, python_files.Knapsack_Recursive
 
 def benchmark(weight_cap): #Final comparison summary between normal and optimized Pascal triangle algorithms:
     
     ### FUNCTION CALLS - incl. print-out and stop-watch timings for each implementation type.
     start_time_bf = time.time()
-    Knapsack_Bruteforce.value_output_bf(weight_cap) #Bruteforce knapsack implementation.
+    python_files.Knapsack_Bruteforce.value_output_bf(weight_cap) #Bruteforce knapsack implementation.
     end_time_bf = time.time()
     delta_bf = end_time_bf - start_time_bf
 
     start_time_dyn = time.time()
-    Knapsack_Dynamic.value_output(weight_cap)
+    python_files.Knapsack_Dynamic.value_output(weight_cap)
     end_time_dyn = time.time()
     delta_dyn = end_time_dyn - start_time_dyn
 
     start_time_recu = time.time()
-    Knapsack_Recursive.commented_recu_ks(weight_cap, weights, values, len(weights), name)
+    python_files.Knapsack_Recursive.commented_recu_ks(weight_cap, weights, values, len(weights), name)
     end_time_recu = time.time()
     delta_recu = end_time_recu - start_time_recu
 
@@ -50,5 +50,4 @@ items = [i+1 for i in range(len(weights))] #[1, 2, 3, 4, 5, 6, 7]
 if __name__ == "__main__":
     benchmark(weight_cap)
 
-#Track
-#Changes in github
+#TrackChanges

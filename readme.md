@@ -14,9 +14,9 @@ values = [70, 20, 39, 37, 7, 5, 10]
 * Alternatively each Python program version can also be run directly by executing the respective Python file.
 * O(N) runtimes (approx.) can be found in the table below:
 
-| Bruteforce    | Recursive   | Dynamic  XX |
+| Bruteforce    | Recursive   | Dynamic  |
 | ---------------------- | ----------- | ------------- |
-| *O(N^2 * weight_cap)*  | Content Cell  | Content Cell  |
+| *O(n^2 * weight_cap)*  | *O(2^n)*  | *O(n * weight_cap)*  |
 
 ### BACKGROUND DETAILS:
 * All Python files are annotated with detailed comments throughout all critical program passages.

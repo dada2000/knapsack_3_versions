@@ -13,8 +13,9 @@ values = [70, 20, 39, 37, 7, 5, 10]
 * All 3 python program implementations will then execute using those centrally defined starting conditions.
 * Alternatively each Python program version can also be run directly by executing the respective Python file.
 * O(N) runtimes (approx.) can be found in the table below:
+
 | Bruteforce    | Recursive   | Dynamic      XX |
-| ------------- | ----------- | -------------XX |
+| ---------------------- | ----------- | -------------XX |
 | *O(N^2 * weight_cap)*  | Content Cell  | Content Cell  |
 
 ### BACKGROUND DETAILS:
